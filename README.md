@@ -10,7 +10,7 @@ A full-stack MERN application that scrapes top stories from Hacker News, stores 
 [https://your-frontend-url.vercel.app](https://web-scraper-5tt4.vercel.app/)
 
 ## Backend API
-https://web-scraper-ba8f.onrender.com
+https://web-scraper-ba8f.onrender.com/api
 
 ---
 
