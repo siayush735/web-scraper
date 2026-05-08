@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import API from "../api/axios.js";
 
-import StoryCard from "../components/storyCard.jsx";
+import StoryCard from "../components/StoryCard.jsx";
 
 export default function Home() {
   const [stories, setStories] = useState([]);
