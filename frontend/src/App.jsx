@@ -5,14 +5,14 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar.jsx";
 
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Bookmarks from "./pages/Bookmarks";
+import Home from "./pages/Home.jsx";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
+import Bookmarks from "./pages/Bookmarks.jsx";
 
-import { useAuth } from "./context/AuthContext";
+import { useAuth } from "./context/AuthContext.jsx";
 
 function ProtectedRoute({ children }) {
   const { user } = useAuth();

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
-import API from "../api/axios";
+import API from "../api/axios.js";
 
-import StoryCard from "../components/StoryCard";
+import StoryCard from "../components/StoryCard.jsx";
 
 export default function Bookmarks() {
   const [stories, setStories] = useState([]);
