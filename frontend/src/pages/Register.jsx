@@ -38,7 +38,7 @@ export default function Register() {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gradient-to-br from-orange-100 to-orange-300 px-4">
+    <div className="min-h-screen flex justify-center items-center bg-linear-to-br from-orange-100 to-orange-300 px-4">
       <div className="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-md">
         <h2 className="text-3xl font-bold text-center mb-6 text-orange-500">
           Create Account
